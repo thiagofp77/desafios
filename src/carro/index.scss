@@ -1,0 +1,85 @@
+.pagina-carros{
+    box-sizing: border-box;
+    margin: 0px;
+  display: flex;
+align-items: center;
+    background-color: #F5F6FA;
+        height: 100vh;
+        flex-direction: column;
+
+    width: 100vw;
+
+
+       h1 {
+          color: #746A6A;
+          font-size: 26px;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+      .conteiner{
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+        border-radius: 6px;
+     
+    
+        }
+          header > img{
+          width: 100vw;
+          }
+
+
+          .meio {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+             background-color: white;
+             width: auto; 
+             
+            padding: 30px;
+          }
+      
+        input{
+          padding: 10px;
+        }
+  
+      .carro{
+        background-color: #CACACA;
+        height: 358px;
+        padding: 0px 20px;
+        align-items: center;
+        display: flex;
+      }
+
+      .parcela{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        margin-top: 10px;
+      }
+      .p1{
+        display: flex;
+        flex-direction: column;
+      }
+      .jm{
+        display: flex;
+        flex-direction: column;
+      }
+  
+      button{
+          padding: 10px 30px;
+          background-color: rgb(37, 124, 255);
+          color: white;
+     
+
+      }
+      
+      p{
+        color: #746A6A;
+        font-size: 16px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+      }
+    }
